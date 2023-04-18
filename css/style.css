@@ -1,0 +1,175 @@
+*{
+    direction: ltr;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #aaa;
+    font-family: Helvetica, sans-serif;
+}
+
+.main-content{
+    background-color: #fff;
+    margin: 1.2rem;
+    padding: 1rem;
+    border: 1px solid;
+    border-color: #fff;
+    border-radius: 10px;
+    top: 12rem;
+    left: 14rem;
+    right: 14rem;
+    position: absolute;
+}
+
+.header-bar{
+    margin: 1rem 0 2rem 0.2rem;
+}
+
+header > img{
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-right: 0;
+}
+
+section{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+section > p{
+    font-size: 1.4rem;
+    color: #1133ff;
+    padding-left: 5%;
+}
+
+section > textarea{
+    font-size: 0.8rem;
+    color: #000;
+    resize: none;
+    width: 60%;
+    height: 13rem;
+    border: solid;
+    border-color: #fff;
+    border-radius: 15px;
+    margin-left: 5%;
+}
+
+.information-text{
+    display: inline-flex;
+    margin-left: 22%;
+}
+
+.information-text > p{
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.information-text > img{
+    width: 0.5rem;
+    height: 0.5rem;
+    cursor: default;
+}
+
+.side-bar{
+    float: right;
+    margin-left: 0;
+    padding-left: 0;
+    width: 30%;
+}
+
+aside > textarea{
+    resize: none;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 30rem;
+    border: solid;
+    border-color: #fff;
+    border-radius: 15px;
+    display: none;
+    cursor: text;
+}
+
+aside > button{
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    transition: 0.2s;
+    opacity: 1;
+    display: none;
+    padding: 0.5rem 1.1rem;
+}
+
+aside > p{
+    text-align: center;
+    color: #555;
+}
+
+.copy-button{
+    border-color: #6699ff;
+    background-color: #6699ff;
+    color: #fff;
+    margin-left: 10rem;
+    position: relative;
+}
+
+.heavy-text{
+    padding-top: 15rem;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+article > button{
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.3rem;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 1.4rem 4.5rem;
+    transition: 0.2s;
+    opacity: 1;
+}
+
+.button-bar{
+    display: inline-flex;
+    padding: 0.4rem 1rem 2rem 0;
+    position: relative;
+    margin-left: 22%;
+}
+
+.encript-button{
+    margin-right: 1rem;
+    border-color: #6699ff;
+    background-color: #6699ff;
+    color: #fff;
+}
+
+.decript-button{
+    margin-left: 1rem;
+    border-color: #6699ff;
+    background-color: #d0d0d0;
+    color: #6699ff;
+}
+
+.encript-button:hover, .copy-button:hover{
+    background-color: #4477ff;
+    border-color: #4466ff;
+}
+
+.decript-button:hover{
+    background-color: #909090;
+    color: #3355ff;
+}
+
+.encript-button:active, .decript-button:active, .copy-button:active{
+    background-color: #33ff55;
+    border-color: #d0d0d0;
+    color: #000;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel =  "stylesheet" href = "css/style.css">
+        <title>Decodificador de texto</title>
+    </head>
+    <body>
+        <div class = "main-content">
+            <aside class = "side-bar">
+                <textarea id = "output-text" name = "output-text" disabled></textarea>
+                <br>
+                <button class = "copy-button" id = "botao-copiar" name = "botao-copiar">Copiar</button>
+                <p class = "heavy-text" id = "linha1">Nenhuma mensagem encontrada</p>
+                <p id = "linha2">Digite um texto que voc&ecirc; deseja criptografar ou descriptografar.</p>
+            </aside>
+            <header class = "header-bar">
+                <img src = "img/letra-a.png" alt = "Logo Alura" title = "Logo da Alura">
+            </header>
+            <section>
+                <p>Digite seu texto</p>
+                <textarea  id = "input-text" name = "input-text" placeholder = "Digite aqui"></textarea>
+                <br>
+                <div class = "information-text">
+                    <p><img src = "img/atencao.png">
+                    Apenas letras min&uacute;sculas sem acento.
+                    </p>
+                </div>
+            </section>
+            <article class = "button-bar">
+                <button class = "encript-button" id = "botao-criptografar" name = "botao-criptografar">Criptografar</button>
+                <button class = "decript-button" id = "botao-descriptografar" name = "botao-descriptografar">Descriptografar</button>
+            </article>
+            <footer></footer>
+        </div>
+        <script type = "text/javascript" src = "js/script.js"></script>
+    </body>
+</html>
